@@ -15,6 +15,10 @@ header {
     flex-direction: row;
 }
 
+header #currentStatus, #temp {
+    justify-content: flex-end;
+}
+
 #todaysDate {
     font-size: 2rem;
     background-color:#c17d8a;
@@ -49,4 +53,23 @@ header {
 
     margin:0;
     padding: 0;
+}
+
+#temp {
+    font-size: 2rem;
+    background-color: #c17d8a;
+    color: #593f4a;
+    width: 90px;
+    padding: 3px 5px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: 8px solid #875f6a;
+}
+
+#currentStatus {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #878680;
+    margin-top: 35px;
+    margin-left: 5rem;
 }

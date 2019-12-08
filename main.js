@@ -32,4 +32,7 @@ document.getElementById("spellOutDate").innerHTML = `${day[today.getDay()]}, ${m
 today = mm + '/' + yyyy;
 document.getElementById("todaysDate").innerHTML = `${today}`;
 
+// Weather Information
+
+
 
