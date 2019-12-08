@@ -1,0 +1,42 @@
+/* Your CSS here */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #faf7db;
+    background: url(city.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#todaysDate {
+    font-size: 2rem;
+    background-color:#c17d8a;
+    color: #593f4a;
+    width: 90px;
+    padding: 3px 5px;
+    margin-top:25px;
+    margin-left: 15px;
+    border: 8px solid #875f6a;
+}
+#currentTime {
+    font-size: 8rem;
+    font-weight: bold;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+}
+#spellOutDate {
+    font-size: 2rem;
+    font-weight: 100;
+    color:#878680;
+}
+
+.clock {
+    display:flex;
+    flex-direction: column;
+    align-content: center; 
+    background-color: rgba(0,0,0, 0.3);
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
