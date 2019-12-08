@@ -1,5 +1,7 @@
 /* Your CSS here */
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
     color: #faf7db;
     background: url(city.jpg) no-repeat center center fixed; 
@@ -8,6 +10,11 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+header {
+    display: flex;
+    flex-direction: row;
+}
+
 #todaysDate {
     font-size: 2rem;
     background-color:#c17d8a;
@@ -25,18 +32,21 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 #spellOutDate {
     font-size: 2rem;
     font-weight: 100;
     color:#878680;
+    margin-top: 35px;
+    margin-left: 1rem;
 }
 
 .clock {
+    width: 100%;
     display:flex;
     flex-direction: column;
-    align-content: center; 
     background-color: rgba(0,0,0, 0.3);
-    width: 100%;
+
     margin:0;
     padding: 0;
 }
