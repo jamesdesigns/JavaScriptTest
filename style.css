@@ -13,10 +13,20 @@ body {
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 header #currentStatus, #temp {
     justify-content: flex-end;
+}
+
+#topLeft {
+    display: flex;
+    flex-direction: row;
+}
+#topRight {
+    display: flex;
+    flex-direction: row;
 }
 
 #todaysDate {
@@ -42,7 +52,7 @@ header #currentStatus, #temp {
     font-weight: 100;
     color:#878680;
     margin-top: 35px;
-    margin-left: 1rem;
+    margin-left: 15px;
 }
 
 .clock {
@@ -63,6 +73,7 @@ header #currentStatus, #temp {
     padding: 3px 5px;
     margin-top: 25px;
     margin-left: 15px;
+    margin-right: 15px;
     border: 8px solid #875f6a;
 }
 
