@@ -84,3 +84,14 @@ header #currentStatus, #temp {
     margin-top: 35px;
     margin-left: 5rem;
 }
+
+#stockQuote {
+    font-size: 2rem;
+    background-color: #c17d8a;
+    color: #593f4a;
+    width: 200px;
+    padding: 3px 5px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: 8px solid #875f6a;
+}
