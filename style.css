@@ -85,6 +85,16 @@ header #currentStatus, #temp {
     margin-left: 5rem;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    left: 30%;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
 #stockQuote {
     font-size: 2rem;
     background-color: #c17d8a;
