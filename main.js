@@ -31,10 +31,11 @@ today = mm + '/' + yyyy;
 document.getElementById("todaysDate").innerHTML = `${today}`;
 
 // Weather Information
-fetch("http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=c9b1a5e943729236d686525c6df3adf0")
+fetch("https://api.spacexdata.com/v3/history")
 .then(response => response.json())
 .then(response => console.log(response))
 .catch(err => console.log(err))
+
 
 
 
