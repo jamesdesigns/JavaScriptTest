@@ -37,7 +37,7 @@ document.getElementById("todaysDate").innerHTML = `${today}`;
 // .catch(err => console.log(err))
 
 
-
+// Random User API
 function createNode(element) {
     return document.createElement(element);
 }
