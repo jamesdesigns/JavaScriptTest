@@ -87,12 +87,21 @@ header #currentStatus, #temp {
 
 #authors {
     display: flex;
-    flex-direction: row;
+    list-style:none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* flex-direction: row; */
     justify-content: center;
+    flex-basis: 80%;
 }
 
 #authors img {
     border-radius: 50%;
+}
+
+#authors span {
+
+
 }
 
 footer {
