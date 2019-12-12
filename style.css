@@ -85,6 +85,11 @@ header #currentStatus, #temp {
     margin-left: 5rem;
 }
 
+#authors {
+    display: flex;
+    flex-direction: row;
+}
+
 footer {
     display: flex;
     flex-direction: row;
