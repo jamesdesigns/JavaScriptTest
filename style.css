@@ -90,6 +90,10 @@ header #currentStatus, #temp {
     flex-direction: row;
 }
 
+#authors img {
+    border-radius: 50%;
+}
+
 footer {
     display: flex;
     flex-direction: row;
